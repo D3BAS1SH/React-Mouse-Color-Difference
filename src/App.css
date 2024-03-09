@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #111;
+  color: #eee;
+  cursor: none;
+}
+
+.myText{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 5rem;
+}
+
+.TextHolder{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.OnlyPage{
+  width: 100vw;
+  height: 100vh;
+}
+
+.myCursor{
+  pointer-events: none;
+  position: fixed;
+  /* height: 4rem;
+  width: 4rem;
+  border-radius: 2rem; */
+  top: -2rem;
+  left: -2rem;
+  background-color: #eee;
+}
